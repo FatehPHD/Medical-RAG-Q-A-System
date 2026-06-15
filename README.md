@@ -1,4 +1,3 @@
-
 # Medical RAG Q&A System
 
 A medical retrieval-augmented generation (RAG) system that answers clinical guideline questions using source-grounded context from WHO, FDA, CDC, and NICE documents.
@@ -49,7 +48,7 @@ OpenAI Response Generation
      |
      v
 Answer + Source Citations
-
+```
 
 The pipeline has four main stages:
 
@@ -69,17 +68,17 @@ The pipeline has four main stages:
 
 ## Features
 
-* **Source-grounded answers** with document and page citations
-* **10 clinical PDFs ingested** from WHO, FDA, CDC, and NICE
-* **1,659 cleaned chunks** stored in ChromaDB
-* **384-dimensional HuggingFace embeddings**
-* **Cosine similarity retrieval**
-* **Score-threshold filtering** to suppress weak matches
-* **LangGraph agent architecture**
-* **FastAPI REST endpoint**
-* **Streamlit chat UI**
-* **Multi-turn conversational memory**
-* **Retrieval benchmark with 20 clinical questions**
+- **Source-grounded answers** with document and page citations
+- **10 clinical PDFs ingested** from WHO, FDA, CDC, and NICE
+- **1,659 cleaned chunks** stored in ChromaDB
+- **384-dimensional HuggingFace embeddings**
+- **Cosine similarity retrieval**
+- **Score-threshold filtering** to suppress weak matches
+- **LangGraph agent architecture**
+- **FastAPI REST endpoint**
+- **Streamlit chat UI**
+- **Multi-turn conversational memory**
+- **Retrieval benchmark with 20 clinical questions**
 
 ---
 
@@ -278,21 +277,9 @@ python evaluation.py
 
 ```txt
 What are the recommended first-line drug classes for treating hypertension?
-```
-
-```txt
 What about for patients with diabetes?
-```
-
-```txt
 What is metformin used for?
-```
-
-```txt
 What is antibiotic stewardship?
-```
-
-```txt
 What is the boxed warning for lisinopril?
 ```
 
@@ -326,19 +313,16 @@ This project is for educational and portfolio purposes only. It is not a medical
 
 ## Future Improvements
 
-* Add reranking with a cross-encoder or Cohere Rerank
-* Add automated RAG evaluation with RAGAS
-* Deploy Streamlit frontend publicly
-* Add user-uploaded PDF support
-* Add source preview cards in the UI
-* Add Docker support
-* Add CI testing for ingestion and retrieval
+- Add reranking with a cross-encoder or Cohere Rerank
+- Add automated RAG evaluation with RAGAS
+- Deploy Streamlit frontend publicly
+- Add user-uploaded PDF support
+- Add source preview cards in the UI
+- Add Docker support
+- Add CI testing for ingestion and retrieval
 
 ---
 
 ## License
 
 MIT
-
-```
-```
