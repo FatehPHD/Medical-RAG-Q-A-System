@@ -1,0 +1,24 @@
+[project]
+name = "ragprac"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.14.2",
+    "fastapi>=0.137.0",
+    "ipykernel>=7.2.0",
+    "langchain>=1.3.4",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.4.1",
+    "langgraph>=1.2.4",
+    "openai>=2.41.1",
+    "pymupdf>=1.27.2.3",
+    "pypdf>=6.13.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "sentence-transformers>=5.5.1",
+    "streamlit>=1.58.0",
+    "uvicorn>=0.49.0",
+]

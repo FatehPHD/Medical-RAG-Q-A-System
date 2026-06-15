@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+pypdf
+pymupdf
+sentence-transformers
+faiss-cpu
+chromadb
+python-dotenv
+openai
+langgraph
+numpy
+scikit-learn
+fastapi
+uvicorn
+streamlit
+requests
