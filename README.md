@@ -1,4 +1,4 @@
-````md
+
 # Medical RAG Q&A System
 
 A medical retrieval-augmented generation (RAG) system that answers clinical guideline questions using source-grounded context from WHO, FDA, CDC, and NICE documents.
@@ -49,7 +49,7 @@ OpenAI Response Generation
      |
      v
 Answer + Source Citations
-````
+
 
 The pipeline has four main stages:
 
